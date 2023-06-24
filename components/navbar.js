@@ -46,11 +46,9 @@ export default function Navbar() {
       <input
         type="file"
         id="file"
-        ref={inputFile}
-        onChange={onFileChange}
         className="hidden"
       />
-      <button onClick={handleUpload} className="bg-white text-black h-10 w-20 px-2 outline-4 outline-dashed outline-[#6453ef]">
+      <button  className="bg-white text-black h-10 w-20 px-2 outline-4 outline-dashed outline-[#6453ef]">
         <span class="flex">
         <span class="flex-row basis-1/2">upload</span>
         <span class="flex-row basis-1/2 ml-1 mt-1"><FaUpload></FaUpload></span>
