@@ -42,13 +42,7 @@ export default function Navbar() {
     }
   }
   return (
-    <div className=" fixed bg-black flex flex-row p-3 border-slate-800 border-b-4 gap-10 items-center w-full   ">
-      <div className="brand-logo w-16 h-16">
-        <img src="/docshield.png"></img>
-      </div>
-      <div class="text-white text-2xl mr-10  ">
-        DocShield
-      </div>
+    <div className="bg-black flex flex-row p-3 border-slate-800 border-b-4 gap-10 items-center ">
       <div className="flex flex-row relative basis-1/2 text-black">
                   <input
                     type="search"
@@ -85,16 +79,16 @@ export default function Navbar() {
         onChange={onFileChange}
         className="hidden"
       />
-      <button onClick={handleUpload} className="bg-white text-black h-10 w-20 px-2 outline-4 outline-dashed outline-[#6453ef]">
+      <button onClick={handleUpload} className="bg-[#6453ef] justify-center items-center text-white h-12 w-32 px-2 shadow-sm shadow-[#6453ef] ">
         <span class="flex">
-        <span class="flex-row basis-1/2">upload</span>
-        <span class="flex-row basis-1/2 ml-1 mt-1"><FaUpload></FaUpload></span>
+        <span class="flex-row basis-1/2 ml-3 mt-1"><FaUpload></FaUpload></span>
+        <span class="flex-row basis-1/2 mr-2 text-xl font-semibold">Upload</span>
     
         </span>
        
       </button>
       <div className="w-16 h-16">
-        <img className="w-16 h-16" src="/metamask.svg" />
+        <img tooltip={account} className="w-16 h-16" src="/metamask.svg" />
       </div>
     </div>
   );
