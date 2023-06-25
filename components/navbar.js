@@ -42,7 +42,7 @@ export default function Navbar() {
     }
   }
   return (
-    <div className="flex flex-row p-3 border-slate-800 border-b-4 gap-10 items-center">
+    <div className=" fixed bg-black flex flex-row p-3 border-slate-800 border-b-4 gap-10 items-center w-full   ">
       <div className="brand-logo w-16 h-16">
         <img src="/docshield.png"></img>
       </div>
