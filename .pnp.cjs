@@ -36,8 +36,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:13.4.7"],\
             ["postcss", "npm:8.4.24"],\
             ["react", "npm:18.2.0"],\
+            ["react-contextmenu", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:2.14.0"],\
             ["react-dom", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:18.2.0"],\
             ["react-icons", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:4.10.1"],\
+            ["tailwind-scrollbar", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:3.0.4"],\
             ["tailwindcss", "npm:3.3.2"]\
           ],\
           "linkType": "SOFT"\
@@ -1066,6 +1068,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["classnames", [\
+        ["npm:2.3.2", {\
+          "packageLocation": "./.yarn/cache/classnames-npm-2.3.2-d2fdae468d-2c62199789.zip/node_modules/classnames/",\
+          "packageDependencies": [\
+            ["classnames", "npm:2.3.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["clean-stack", [\
         ["npm:2.2.0", {\
           "packageLocation": "./.yarn/cache/clean-stack-npm-2.2.0-a8ce435a5c-2ac8cd2b2f.zip/node_modules/clean-stack/",\
@@ -1363,8 +1374,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:13.4.7"],\
             ["postcss", "npm:8.4.24"],\
             ["react", "npm:18.2.0"],\
+            ["react-contextmenu", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:2.14.0"],\
             ["react-dom", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:18.2.0"],\
             ["react-icons", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:4.10.1"],\
+            ["tailwind-scrollbar", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:3.0.4"],\
             ["tailwindcss", "npm:3.3.2"]\
           ],\
           "linkType": "SOFT"\
@@ -4038,6 +4051,38 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-contextmenu", [\
+        ["npm:2.14.0", {\
+          "packageLocation": "./.yarn/cache/react-contextmenu-npm-2.14.0-53d23b7cab-a250ed9253.zip/node_modules/react-contextmenu/",\
+          "packageDependencies": [\
+            ["react-contextmenu", "npm:2.14.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:2.14.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-contextmenu-virtual-b54c220ddb/0/cache/react-contextmenu-npm-2.14.0-53d23b7cab-a250ed9253.zip/node_modules/react-contextmenu/",\
+          "packageDependencies": [\
+            ["react-contextmenu", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:2.14.0"],\
+            ["@types/prop-types", null],\
+            ["@types/react", null],\
+            ["@types/react-dom", null],\
+            ["classnames", "npm:2.3.2"],\
+            ["object-assign", "npm:4.1.1"],\
+            ["prop-types", null],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/prop-types",\
+            "@types/react-dom",\
+            "@types/react",\
+            "prop-types",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-dom", [\
         ["npm:18.2.0", {\
           "packageLocation": "./.yarn/cache/react-dom-npm-18.2.0-dd675bca1c-7d323310be.zip/node_modules/react-dom/",\
@@ -4633,6 +4678,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["synckit", "npm:0.8.5"],\
             ["@pkgr/utils", "npm:2.4.1"],\
             ["tslib", "npm:2.5.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tailwind-scrollbar", [\
+        ["npm:3.0.4", {\
+          "packageLocation": "./.yarn/cache/tailwind-scrollbar-npm-3.0.4-52a7aa87df-e708baef1e.zip/node_modules/tailwind-scrollbar/",\
+          "packageDependencies": [\
+            ["tailwind-scrollbar", "npm:3.0.4"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:3.0.4", {\
+          "packageLocation": "./.yarn/__virtual__/tailwind-scrollbar-virtual-809dc635c7/0/cache/tailwind-scrollbar-npm-3.0.4-52a7aa87df-e708baef1e.zip/node_modules/tailwind-scrollbar/",\
+          "packageDependencies": [\
+            ["tailwind-scrollbar", "virtual:8827766d71e72bc5a27c8ccca91e31b770d77ef6a67b20d8049590a48920a4feac088f7f076c09d2e78c0bef9a1b3aa09cd0c2131166c9a997fc4d1e7b6cf39c#npm:3.0.4"],\
+            ["@types/tailwindcss", null],\
+            ["tailwindcss", "npm:3.3.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/tailwindcss",\
+            "tailwindcss"\
           ],\
           "linkType": "HARD"\
         }]\

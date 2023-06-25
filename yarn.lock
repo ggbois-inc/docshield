@@ -843,6 +843,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"classnames@npm:^2.2.5":
+  version: 2.3.2
+  resolution: "classnames@npm:2.3.2"
+  checksum: 2c62199789618d95545c872787137262e741f9db13328e216b093eea91c85ef2bfb152c1f9e63027204e2559a006a92eb74147d46c800a9f96297ae1d9f96f4e
+  languageName: node
+  linkType: hard
+
 "clean-stack@npm:^2.0.0":
   version: 2.2.0
   resolution: "clean-stack@npm:2.2.0"
@@ -1078,8 +1085,10 @@ __metadata:
     next: 13.4.7
     postcss: 8.4.24
     react: 18.2.0
+    react-contextmenu: ^2.14.0
     react-dom: 18.2.0
     react-icons: ^4.10.1
+    tailwind-scrollbar: ^3.0.4
     tailwindcss: 3.3.2
   languageName: unknown
   linkType: soft
@@ -2939,7 +2948,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"object-assign@npm:^4.0.1, object-assign@npm:^4.1.1":
+"object-assign@npm:^4.0.1, object-assign@npm:^4.1.0, object-assign@npm:^4.1.1":
   version: 4.1.1
   resolution: "object-assign@npm:4.1.1"
   checksum: fcc6e4ea8c7fe48abfbb552578b1c53e0d194086e2e6bbbf59e0a536381a292f39943c6e9628af05b5528aa5e3318bb30d6b2e53cadaf5b8fe9e12c4b69af23f
@@ -3329,6 +3338,20 @@ __metadata:
   version: 1.2.3
   resolution: "queue-microtask@npm:1.2.3"
   checksum: b676f8c040cdc5b12723ad2f91414d267605b26419d5c821ff03befa817ddd10e238d22b25d604920340fd73efd8ba795465a0377c4adf45a4a41e4234e42dc4
+  languageName: node
+  linkType: hard
+
+"react-contextmenu@npm:^2.14.0":
+  version: 2.14.0
+  resolution: "react-contextmenu@npm:2.14.0"
+  dependencies:
+    classnames: ^2.2.5
+    object-assign: ^4.1.0
+  peerDependencies:
+    prop-types: ^15.0.0
+    react: ^0.14.0 || ^15.0.0 || ^16.0.1
+    react-dom: ^0.14.0 || ^15.0.0 || ^16.0.1
+  checksum: a250ed92535b339fb5dd8ec11b6a75e28b46fe46b43771ea4fefad6ca88afc44a157620c1596ced90c9fc9fe5270502f4cd1d0b29d71e698ec93a87b3c43b13e
   languageName: node
   linkType: hard
 
@@ -3875,6 +3898,15 @@ __metadata:
     "@pkgr/utils": ^2.3.1
     tslib: ^2.5.0
   checksum: 8a9560e5d8f3d94dc3cf5f7b9c83490ffa30d320093560a37b88f59483040771fd1750e76b9939abfbb1b5a23fd6dfbae77f6b338abffe7cae7329cd9b9bb86b
+  languageName: node
+  linkType: hard
+
+"tailwind-scrollbar@npm:^3.0.4":
+  version: 3.0.4
+  resolution: "tailwind-scrollbar@npm:3.0.4"
+  peerDependencies:
+    tailwindcss: 3.x
+  checksum: e708baef1ec640e7bef11338e05951f0074fb7cc680255fa33c8a24b5b545121fbf87b5f36fca069128117d578285a714699aa6e39a54a346e6c67fd42571f43
   languageName: node
   linkType: hard
 
