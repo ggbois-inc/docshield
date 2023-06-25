@@ -13,7 +13,7 @@ export default function SideButton(props) {
     >
       <props.icon size={32} />
       <span className="hidden lg:block lg:text-lg">{props.text}</span>
-      <div className="hidden lg:block lg:grow"/>
+      <div className="hidden lg:block lg:grow" />
     </button>
   );
 }
