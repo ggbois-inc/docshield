@@ -11,6 +11,7 @@
   "dependencies": {
     "autoprefixer": "10.4.14",
     "axios": "^1.4.0",
+    "context": "^3.0.7",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
     "next": "13.4.7",

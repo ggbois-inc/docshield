@@ -912,6 +912,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"context@npm:^3.0.7":
+  version: 3.0.7
+  resolution: "context@npm:3.0.7"
+  dependencies:
+    vest-utils: ^0.1.1
+  checksum: a80849cb0402d3dec8270fc02c56fa29bc647d013739748d591e1345866abf80c015770d1db42b28333671fd06cabaa0580e350d51ceccd01ec1d9dd4a43c2d7
+  languageName: node
+  linkType: hard
+
 "cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
   version: 7.0.3
   resolution: "cross-spawn@npm:7.0.3"
@@ -1063,6 +1072,7 @@ __metadata:
   dependencies:
     autoprefixer: 10.4.14
     axios: ^1.4.0
+    context: ^3.0.7
     eslint: 8.43.0
     eslint-config-next: 13.4.7
     next: 13.4.7
@@ -4099,6 +4109,13 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
+  languageName: node
+  linkType: hard
+
+"vest-utils@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "vest-utils@npm:0.1.1"
+  checksum: e9dc9ca8e5612526a344f31a3d10d09d47fd5a603f07774a052be116d4dc90b51bfa427fd1e88c7e745ee7c65d7df1bd495db14dce54f4ab7731edc4bf99c2b1
   languageName: node
   linkType: hard
 
