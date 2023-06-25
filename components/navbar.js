@@ -1,11 +1,46 @@
 import { useEffect, useRef, useContext, useState } from "react";
 import { useRouter } from "next/router";
 import { AppContext } from "../context/AppContext";
-// import axios from "axios";
-// import { FileContext } from "@/context/FileContext";
+import axios from "axios";
+import { FileContext } from "@/context/FileContext";
 import { FaUpload } from "react-icons/fa";
 export default function Navbar() {
-  
+  const { setfs, fileup } = useContext(FileContext);
+  const router = useRouter();
+  const { account } = useContext(AppContext);
+  useEffect(() => {
+    if (!account) {
+      router.push("/login");
+    }
+  }, [account]);
+  const inputFile = useRef(null);
+  function handleUpload() {
+    inputFile.current.click();
+  }
+  function onFileChange(event) {
+    event.stopPropagation();
+    event.preventDefault();
+    if (event.target.files.length > 0) {
+      var file = event.target.files[0];
+      console.log(file);
+      var formData = new FormData();
+      formData.append("file", file);
+      let meta_id = "xyz";
+      if (account) {
+        meta_id = account;
+      }
+      axios
+        .post("http://localhost:5000/api/upload", formData, {
+          headers: {
+            "Content-Type": "multipart/form-data",
+            meta_id: meta_id,
+          },
+        })
+        .then((res) => {
+          fileup(meta_id)
+        });
+    }
+  }
   return (
     <div className="flex flex-row p-3 border-slate-800 border-b-4 gap-10 items-center">
       <div className="brand-logo w-16 h-16">
@@ -46,9 +81,11 @@ export default function Navbar() {
       <input
         type="file"
         id="file"
+        ref={inputFile}
+        onChange={onFileChange}
         className="hidden"
       />
-      <button  className="bg-white text-black h-10 w-20 px-2 outline-4 outline-dashed outline-[#6453ef]">
+      <button onClick={handleUpload} className="bg-white text-black h-10 w-20 px-2 outline-4 outline-dashed outline-[#6453ef]">
         <span class="flex">
         <span class="flex-row basis-1/2">upload</span>
         <span class="flex-row basis-1/2 ml-1 mt-1"><FaUpload></FaUpload></span>
