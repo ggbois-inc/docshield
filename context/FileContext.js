@@ -5,7 +5,7 @@ export default function FileProvider({ children }) {
   const [fileState, setFileState] = useState([]);
   function UpdateFile(meta_id) {
     axios
-      .get("http://localhost:5000/api/files", {
+      .get("https://docshieldapi.zubairmh.repl.co/api/files", {
         headers: {
           meta_id: meta_id,
         },
