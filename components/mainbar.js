@@ -5,7 +5,7 @@ export default function Mainbar() {
   return (
     <div className="flex flex-row grow">
       <Sidebar />
-      {/* <ContentBar /> */}
+      <ContentBar />
     </div>
   );
 }
