@@ -1,13 +1,12 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import {ToastContainer} from "react-toastify"
-
+import { Toaster } from 'react-hot-toast';
 export default function Document() {
   return (
     <Html lang="en">
       <Head />
       <body>
         <Main />
-        <ToastContainer/>
+        <Toaster position="bottom-right"/>
         <NextScript />
       </body>
     </Html>

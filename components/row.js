@@ -4,9 +4,13 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { RiDeleteBin2Fill } from "react-icons/ri";
 import { FaShareFromSquare } from "react-icons/fa6";
 import { FcDocument } from "react-icons/fc";
-
+import {useContext} from "react"
+import { FileContext } from "@/context/FileContext";
+import { AppContext } from "@/context/AppContext";
 
 export default function Row(props) {
+  const {filedel}=useContext(FileContext);
+  const {account}=useContext(AppContext);
   function timeConverter(timestamp){
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     const date = new Date(timestamp).toLocaleDateString('en-US', options);
@@ -19,7 +23,7 @@ export default function Row(props) {
     return formattedTime
   }
   return (
-    <div onClick={()=>{window.open(`https://docshieldapi.zubairmh.repl.co/api/file/${props.code}`, "_blank")}} class="flex flex-row border-slate-100 border-b-2 border-solid cursor-pointer">
+    <div class="flex flex-row border-slate-100 border-b-2 border-solid cursor-pointer">
       <span class="flex flex-grow text-black text-xl basis-1/2 items-center space-x-4">
         <FcDocument size={32} class="ml-3" />
         <span>{props.filename}</span>
@@ -32,8 +36,8 @@ export default function Row(props) {
       <span class="flex  text-black text-xl basis-1/12">
         <span class="flex basis-1/2 mr-2">{props.size}</span>
         <span class=" flex basis-1/2"> 
-        <button type="" class="flex flex-col p-2 "><RiDeleteBin2Fill></RiDeleteBin2Fill></button>
-        <button type="" class="flex flex-col p-2 "><FaShareFromSquare></FaShareFromSquare></button>
+        <button onClick={()=>filedel(account, props.cid)} type="" class="flex flex-col p-2 "><RiDeleteBin2Fill></RiDeleteBin2Fill></button>
+        <button onClick={()=>{window.open(`https://docshieldapi.zubairmh.repl.co/api/file/${props.code}`, "_blank")}} type="" class="flex flex-col p-2 "><FaShareFromSquare></FaShareFromSquare></button>
 
         </span>
       </span>

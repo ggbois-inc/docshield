@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
-import {toast} from "react-toastify";
+import toast from 'react-hot-toast';
 export const FileContext = React.createContext([]);
 export default function FileProvider({ children }) {
   const [fileState, setFileState] = useState([]);
   function UpdateFile(meta_id) {
-    toast.loading("loading")
+    toast("Updating Files")
     axios
       .get("https://docshieldapi.zubairmh.repl.co/api/files", {
         headers: {
@@ -20,7 +20,8 @@ export default function FileProvider({ children }) {
     });
   }
   function DeleteFile(meta_id, cid) {
-    axios.get("https://docshieldapi.zubairmh.repl.co/delete", {
+    toast("Deleting File")
+    axios.get("https://docshieldapi.zubairmh.repl.co/api/delete", {
       headers: {
         meta_id: meta_id,
         cid: cid
