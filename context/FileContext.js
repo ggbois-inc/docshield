@@ -19,6 +19,21 @@ export default function FileProvider({ children }) {
         }
     });
   }
+  function DeleteFile(meta_id, cid) {
+    axios.get("https://docshieldapi.zubairmh.repl.co/delete", {
+      headers: {
+        meta_id: meta_id,
+        cid: cid
+      },
+    })
+    .then((res)=> {
+      if (res) {
+        console.log("good response");
+        console.log(res);
+        setFileState(res.data.filter(el=>el.contains));
+      }
+    })
+  }
   return (
     <FileContext.Provider
       value={{ fs: fileState, setfs: setFileState, fileup: UpdateFile }}
