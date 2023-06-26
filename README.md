@@ -5,6 +5,7 @@
    
    <h1 align="center">DocShield</h1>
    <hr>
+   
    <h3 align="center">A Decentralized Document holder with Enhanced access Control and Security</h3>
     <div style="display: block;" align="center">
     <a href="https://docshield.vercel.app/">
@@ -36,7 +37,7 @@ Metamask enables users to maintain full control over their personal information,
 <div align="center">
   <h1> Decentralized Storage Sysytem</h1>
 
-
+ <img class="dark-light" src="https://i.imgur.com/pDQeQNP.png">
 </div>
 <p> By leveraging decentralized storage, we can achieve enhanced data resilience, privacy, and scalability. Instead of storing data on a single server that may be susceptible to downtime or security breaches, our decentralized storage system splits and encrypts data into smaller pieces, which are then distributed across multiple nodes in the network. This approach eliminates single points of failure, making our data more resistant to hacking attempts or hardware failures.
 
