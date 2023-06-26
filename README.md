@@ -4,6 +4,7 @@
  <img class="" src="https://i.imgur.com/ds79ycV.png">
    
    <h1 align="center">DocShield</h1>
+   <hr>
    <h3 align="center">A Decentralized Document holder with Enhanced access Control and Security</h3>
     <div style="display: block;" align="center">
     <a href="https://docshield.vercel.app/">
@@ -16,7 +17,8 @@
  
 </div>
 
-        
+  <br>
+<hr>      
     
     
 
@@ -29,8 +31,8 @@
 Metamask enables users to maintain full control over their personal information, as it securely stores their private keys locally on their device. When logging in, users are prompted to authorize the login transaction through Metamask, verifying their identity and granting access to our website. This decentralized login process eliminates the need for usernames and passwords, reducing the risk of credential theft and unauthorized access. </p>
       
 <div>
-</br>
-
+ <br>
+<hr>
 <div align="center">
   <h1> Decentralized Storage Sysytem</h1>
 
