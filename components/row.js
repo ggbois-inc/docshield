@@ -32,8 +32,8 @@ export default function Row(props) {
       <span class="flex  text-black text-xl basis-1/12">
         <span class="flex basis-1/2 mr-2">{props.size}</span>
         <span class=" flex basis-1/2"> 
-        <button type="" class="flex flex-col p-1 "><RiDeleteBin2Fill></RiDeleteBin2Fill></button>
-        <button type="" class="flex flex-col p-1 "><FaShareFromSquare></FaShareFromSquare></button>
+        <button type="" class="flex flex-col p-2 "><RiDeleteBin2Fill></RiDeleteBin2Fill></button>
+        <button type="" class="flex flex-col p-2 "><FaShareFromSquare></FaShareFromSquare></button>
 
         </span>
       </span>

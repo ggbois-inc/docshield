@@ -34,7 +34,7 @@ export default function ContentBar() {
         {fs && fs.length>=4 && fs.map((el, index)=>{
           if(index<=3) {
             return (
-              <div class="flex basis-1/6 bg-[#f9f9fb] w-32 h-48 rounded-lg text-black text-xl shadow-slate-700 shadow-md drop-shadow-2xl items-center justify-center outline-none outline-4 hover:outline-cyan-400 hover:-translate-y-2 transition ease-in-out delay-75 "> <span class=" p-3 "> <img src="https://www.svgrepo.com/show/66745/pdf.svg" alt="" class=" w-32  mb-1"></img>  {truncate(el.filename,11)} </span>  </div>
+              <div onClick={()=>{window.open(`https://docshieldapi.zubairmh.repl.co/api/file/${el.short}`, "_blank")}} class="flex cursor-pointer basis-1/6 bg-[#f9f9fb] w-32 h-48 rounded-lg text-black text-xl shadow-slate-700 shadow-md drop-shadow-2xl items-center justify-center outline-none outline-4 hover:outline-cyan-400 hover:-translate-y-2 transition ease-in-out delay-75 "> <span class=" p-3 "> <img src="https://www.svgrepo.com/show/66745/pdf.svg" alt="" class=" w-32  mb-1"></img>  {truncate(el.filename,11)} </span>  </div>
             )
           }
         })}
