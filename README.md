@@ -13,38 +13,26 @@
 
 
         
-    <div  align="center">
-
-        <a href="https://docs.moralis.io/authentication-api/evm/how-to-sign-in-with-metamask">
-            <img class="dark-light" width="25%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png">
-        </a>
-        <img class="dark-light" width="5%" src="https://raw.githubusercontent.com/unifyai/unifyai.github.io/master/img/externally_linked/logos/supported/empty.png">
-        
-        
-        <a href="https://tailwindcss.com/">
-            <img class="dark-light" width="25%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTpFnJvSkNn-n8_seylQPLXg5V2OMTypWGQg&usqp=CAU">
-        </a>
-        <img class="dark-light" width="5%" src="https://raw.githubusercontent.com/unifyai/unifyai.github.io/master/img/externally_linked/logos/supported/empty.png">
-        
-        <img class="dark-light" width="5%" src="https://raw.githubusercontent.com/unifyai/unifyai.github.io/master/img/externally_linked/logos/supported/empty.png">
-        <a href="https://docs.ipfs.tech/">
-            <img class="dark-light" width="20%" src="https://docs.ipfs.tech/images/ipfs-logo.svg">
-        </a>
-        <img class="dark-light" width="5%" src="https://raw.githubusercontent.com/unifyai/unifyai.github.io/master/img/externally_linked/logos/supported/empty.png">
-        
-        <img class="dark-light" width="5%" src="https://raw.githubusercontent.com/unifyai/unifyai.github.io/master/img/externally_linked/logos/supported/empty.png">
-        
-      
-    </div>
+    
     
 
 
 <div style ="display: block;" align ="center">
        <h1>🦊Metamask Intergration (WEB3 AUTH)🦊</h1>
+    <img class="dark-light" src="https://i.imgur.com/yjm7JcT.png">
        <p> By leveraging Metamask, we provide a seamless and secure login experience for our users. Rather than creating traditional accounts that require personal information, our website allows users to log in using their Metamask wallet. This approach ensures that no sensitive data is stored on our servers, reducing the risk of data breaches and protecting user privacy.
 
 Metamask enables users to maintain full control over their personal information, as it securely stores their private keys locally on their device. When logging in, users are prompted to authorize the login transaction through Metamask, verifying their identity and granting access to our website. This decentralized login process eliminates the need for usernames and passwords, reducing the risk of credential theft and unauthorized access. </p>
       
 <div>
+</br>
 
+<div align="center">
+  <h1> Decentralized Storage Sysytem</h1>
+
+
+</div>
+<p> By leveraging decentralized storage, we can achieve enhanced data resilience, privacy, and scalability. Instead of storing data on a single server that may be susceptible to downtime or security breaches, our decentralized storage system splits and encrypts data into smaller pieces, which are then distributed across multiple nodes in the network. This approach eliminates single points of failure, making our data more resistant to hacking attempts or hardware failures.
+
+Moreover, decentralized storage ensures data privacy and security by employing robust encryption techniques. Data is encrypted before being uploaded to the storage network, and only the owner holds the encryption keys, thereby granting them full control over their data. This approach minimizes the risk of unauthorized access and provides an added layer of protection for sensitive user information.
 
