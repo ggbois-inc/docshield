@@ -15,6 +15,8 @@
 
 .. raw:: html
 
+   <h1 align="center">DocShield</h1>
+   <h3 align="center">A Decentralized Document holder with Enhanced access Control and Security</h3>
     <div style="display: block;" align="center">
     <a href="https:"docshield.vercel.app">
         <img class="dark-light" src="https://raw.githubusercontent.com/unifyai/unifyai.github.io/master/img/externally_linked/website_button.svg">
@@ -28,50 +30,19 @@
 
 ------------------------------------------------------
 
-Status
-^^^^^^
 
-.. raw:: html
 
-    <div>
-    <a href="https://github.com/unifyai/ivy/issues">
-        <img class="dark-light" style="padding-right: 4px; padding-bottom: 4px;" src="https://img.shields.io/github/issues/unifyai/ivy">
-    </a>
-    <a href="https://github.com/unifyai/ivy/network/members">
-        <img class="dark-light" style="padding-right: 4px; padding-bottom: 4px;" src="https://img.shields.io/github/forks/unifyai/ivy">
-    </a>
-    <a href="https://github.com/unifyai/ivy/stargazers">
-        <img class="dark-light" style="padding-right: 4px; padding-bottom: 4px;" src="https://img.shields.io/github/stars/unifyai/ivy">
-    </a>
-    <a href="https://github.com/unifyai/ivy/pulls">
-        <img class="dark-light" style="padding-right: 4px; padding-bottom: 4px;" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
-    </a>
-    <a href="https://pypi.org/project/ivy-core">
-        <img class="dark-light" style="padding-right: 4px; padding-bottom: 4px;" src="https://badge.fury.io/py/ivy-core.svg">
-    </a>
-    <a href="https://github.com/unifyai/ivy/actions?query=workflow%3Adocs">
-        <img class="dark-light" style="padding-right: 4px; padding-bottom: 4px;" src="https://github.com/unifyai/ivy/actions/workflows/docs.yml/badge.svg">
-    </a>
-    <a href="https://github.com/unifyai/ivy/actions?query=workflow%3Atest-ivy">
-        <img class="dark-light" style="padding-right: 4px; padding-bottom: 4px;" src="https://github.com/unifyai/ivy/actions/workflows/test-ivy.yml/badge.svg">
-    </a>
-    <a href="https://discord.gg/sXyFF8tDtm">
-        <img class="dark-light" style="padding-right: 4px; padding-bottom: 4px;" src="https://img.shields.io/discord/799879767196958751?color=blue&label=%20&logo=discord&logoColor=white">
-    </a>
-    </div>
-    <br clear="all" />
 
-------------------------------------------------------
 
-Unified AI
+Integrations
 ^^^^^^^^^^
 
 .. raw:: html
         
     <div style="display: block;" align="center">
         <div>
-        <a href="https://jax.readthedocs.io">
-            <img class="dark-light" width="10%" src="https://raw.githubusercontent.com/unifyai/unifyai.github.io/master/img/externally_linked/logos/supported/jax_logo.png">
+        <a href="https://docs.moralis.io/authentication-api/evm/how-to-sign-in-with-metamask">
+            <img class="dark-light" width="10%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png">
         </a>
         <img class="dark-light" width="5%" src="https://raw.githubusercontent.com/unifyai/unifyai.github.io/master/img/externally_linked/logos/supported/empty.png">
         
