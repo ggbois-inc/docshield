@@ -30,13 +30,13 @@ export default function FileProvider({ children }) {
       if (res) {
         console.log("good response");
         console.log(res);
-        setFileState(res.data.filter(el=>el.contains));
+        setFileState(fileState.filter(el=>el.cid!=cid));
       }
     })
   }
   return (
     <FileContext.Provider
-      value={{ fs: fileState, setfs: setFileState, fileup: UpdateFile }}
+      value={{ fs: fileState, setfs: setFileState, fileup: UpdateFile, filedel: DeleteFile }}
     >
       {children}
     </FileContext.Provider>
