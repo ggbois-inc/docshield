@@ -1,19 +1,4 @@
-.. _`Backend Handler`: https://unify.ai/docs/ivy/overview/design/building_blocks.html#backend-handler
-.. _`Backend Functional APIs`: https://unify.ai/docs/ivy/overview/design/building_blocks.html#backend-functional-apis
 
-.. _`Mechanics`: https://github.com/unifyai/mech
-.. _`Computer Vision`: https://github.com/unifyai/vision
-.. _`Robotics`: https://github.com/unifyai/robot
-.. _`Reinforcement Learning Gym`: https://github.com/unifyai/gym
-.. _`Memory`: https://github.com/unifyai/memory
-.. _`Builder tools`: https://github.com/unifyai/builder
-.. _`Models`: https://github.com/unifyai/models
-
-.. _`Examples page`: https://unify.ai/demos/
-.. _`open tasks`: https://unify.ai/docs/ivy/overview/contributing/open_tasks.html
-
-.. _`Discord`: https://discord.gg/sXyFF8tDtm
-.. _`Twitter`: https://twitter.com/letsunifyai
 
 ..
 
@@ -31,7 +16,7 @@
 .. raw:: html
 
     <div style="display: block;" align="center">
-    <a href="https://unify.ai/">
+    <a href="https:"docshield.vercel.app">
         <img class="dark-light" src="https://raw.githubusercontent.com/unifyai/unifyai.github.io/master/img/externally_linked/website_button.svg">
     </a>
     <img class="dark-light" width="5%" src="https://raw.githubusercontent.com/unifyai/unifyai.github.io/master/img/externally_linked/logos/supported/empty.png">
