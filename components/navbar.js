@@ -3,8 +3,13 @@ import { useRouter } from "next/router";
 import { AppContext } from "../context/AppContext";
 import axios from "axios";
 import { FileContext } from "@/context/FileContext";
+import { SearchContext } from "@/context/SearchContext";
 import { FaUpload } from "react-icons/fa";
+import { toast } from 'react-toastify';
 export default function Navbar() {
+  const {search, updateSearch}=useContext(SearchContext)
+  const notify = () => toast("Uploading");
+  const dismiss = () =>  toast.dismiss();
   const { setfs, fileup } = useContext(FileContext);
   const router = useRouter();
   const { account } = useContext(AppContext);
@@ -29,6 +34,7 @@ export default function Navbar() {
       if (account) {
         meta_id = account;
       }
+      notify()
       axios
         .post("https://docshieldapi.zubairmh.repl.co/api/upload", formData, {
           headers: {
@@ -38,17 +44,20 @@ export default function Navbar() {
         })
         .then((res) => {
           fileup(meta_id)
+          dismiss()
         });
     }
   }
   return (
-    <div className="bg-white flex flex-row p-3 border-slate-800 border-b-4 gap-10 items-center ">
+    <div className="bg-white flex flex-row p-3 border-slate-200 border-b-2 gap-10 items-center   ">
       <div className="flex flex-row relative basis-1/2 text-black">
         <input
           type="search"
           name="search"
           placeholder="Search"
-          className="bg-slate-100 h-10 px-5 pr-10 rounded-full text-sm focus:outline-none min-w-full"
+          className="bg-slate-200 h-10 px-5 pr-10 rounded-full text-sm focus:outline-none min-w-full"
+          value={search}
+          onInput={e=>updateSearch(e.target.value)}
         />
         <button
           type="submit"
