@@ -10,10 +10,11 @@ export default function Login() {
     }
   }, [account]);
   return (
-    <div className="flex bg-black min-h-screen items-center justify-center">
+    <div className="flex flex-col bg-black min-h-screen items-center justify-center">
       <button onClick={connectWallet}>
         <img className="w-64 h-64" src="/metamask.svg" ></img>
       </button>
+      <h1 className="text-3xl">Connect with metamask</h1>
     </div>
   );
 }
