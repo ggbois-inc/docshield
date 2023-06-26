@@ -12,7 +12,7 @@ export default function Login() {
   return (
     <div className="flex bg-black min-h-screen items-center justify-center">
       <button onClick={connectWallet}>
-        <img className="w-64 h-64" src="/metamask.svg" />
+        <img className="w-64 h-64" src="/metamask.svg" ></img>
       </button>
     </div>
   );
