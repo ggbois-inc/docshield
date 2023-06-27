@@ -43,3 +43,5 @@ Metamask enables users to maintain full control over their personal information,
 
 Moreover, decentralized storage ensures data privacy and security by employing robust encryption techniques. Data is encrypted before being uploaded to the storage network, and only the owner holds the encryption keys, thereby granting them full control over their data. This approach minimizes the risk of unauthorized access and provides an added layer of protection for sensitive user information.
 
+ src="https://example.com/project-a-avatar.png" alt="Project A" title="Project A" width="80" height="80" style="border-radius: 100%;">
+</a>
